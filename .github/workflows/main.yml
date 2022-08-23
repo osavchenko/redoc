@@ -42,4 +42,4 @@ jobs:
         with:
           context: ./cli
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ steps.prep.outputs.tags }}
+          tags: latest
